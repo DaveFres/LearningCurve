@@ -11,7 +11,7 @@ title: Git
 ## Склонировать код из пулл реквеста (ветку)
 
 ```cli
-git checkout -t origin/rkupov.VIDEOUI-9760.related-right
+git checkout -t origin/<branch_name>
 ```
 
 ## Удалить ветку
