@@ -1,0 +1,9 @@
+{
+  "docs": {
+    "О Документации": ["index"],
+    "Git": ["git"]
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
