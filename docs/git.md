@@ -23,3 +23,9 @@ git checkout -t origin/<branch_name>
 
 * ```git config --local user.name "John Doe"```
 * ```git config --local user.email johndoe@example.com```
+
+## Замержить ветку от ветки, после того, как первую ветку замержили в master
+
+```git rebase --onto master feature_branch dependent_feature```
+
+Полный ответ смотри [тут](https://stackoverflow.com/questions/22593087/merging-a-branch-of-a-branch-after-first-branch-is-squashed-when-merged-to-maste)
