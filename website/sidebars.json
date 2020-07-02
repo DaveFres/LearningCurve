@@ -3,6 +3,7 @@
     "О Документации": ["index"],
     "Git": ["git"],
     "Сетевые запросы": ["network"],
+    "Typescript": ["typescript", "typescript2"],
     "Полезные ссылки": ["links"]
   }
 }
