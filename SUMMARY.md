@@ -1,6 +1,6 @@
 # Table of contents
 
-* [LearningCurve](README.md)
+* [Learning Curve](README.md)
 * [Почему возникла эта документация \| The Feynman Technique](index.md)
 * [git](git.md)
 * [network](network.md)

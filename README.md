@@ -1,2 +1,2 @@
-# LearningCurve
+# Learning Curve
 
