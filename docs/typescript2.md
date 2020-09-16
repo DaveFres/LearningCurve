@@ -1,12 +1,13 @@
 ---
 id: typescript2
-title: Functions, Objects, etc
+title: 'Functions, Objects, etc'
 ---
+
+# typescript2
 
 ## Функции
 
-Про функции можно прочесть [тут](https://www.typescriptlang.org/docs/handbook/functions.html).
-Стоит обратить внимание на следующий кейс:
+Про функции можно прочесть [тут](https://www.typescriptlang.org/docs/handbook/functions.html). Стоит обратить внимание на следующий кейс:
 
 ```typescript
 let myFunc: (firstArg: string) => void;
@@ -74,8 +75,7 @@ nikita.nickName; // Prop 'nickName' is private and only accssible within class '
 nikita.pass = 42; // Cannot assign to 'pass' because it is a read-only property
 ```
 
-При инициализации дефолтного значения, добавлять инициализацию в сам конструктор не обязательно.
-Минимизировать количество строк кода в записи выше можно следующим образом:
+При инициализации дефолтного значения, добавлять инициализацию в сам конструктор не обязательно. Минимизировать количество строк кода в записи выше можно следующим образом:
 
 ```typescript
 class User {
@@ -114,5 +114,5 @@ const samedi = new User('Samedi');
 
 samedi.setAge(30); // 30
 samedi.myAge = 31; // 31
-
 ```
+

@@ -3,7 +3,9 @@ id: typescript
 title: Basic types
 ---
 
-Тип <strong>Array</strong>:
+# typescript
+
+Тип **Array**:
 
 ```typescript
 let list: number[] = [1, 2, 3];
@@ -11,7 +13,7 @@ let list: number[] = [1, 2, 3];
 let list: Array<number> = [1, 2, 3];
 ```
 
-Тип <strong>Tuple</strong>:
+Тип **Tuple**:
 
 ```typescript
 // Multiple line
@@ -25,9 +27,9 @@ let y: [string, number] = ['hey', 10];
 x = [10, 'hello']; // Type string is not assignable to type 'number'
 ```
 
-<strong>Вопрос</strong>: Что делать, если на вход поступает массив неизвестной длинны и типов?
+**Вопрос**: Что делать, если на вход поступает массив неизвестной длинны и типов?
 
-Использовать тип ```any```:
+Использовать тип `any`:
 
 ```typescript
 // Any type for array
@@ -35,7 +37,7 @@ let y: [any, any] = [1, 'hello'];
 let z: Array<any> = ['goodbye', 10];
 ```
 
-Тип <strong>never</strong>:
+Тип **never**:
 
 ```typescript
 // Never type
@@ -53,7 +55,7 @@ const infiniteLoop = (): never => {
 };
 ```
 
-<strong>Пользовательский тип</strong>:
+**Пользовательский тип**:
 
 ```typescript
 type Name = string | undefined; // Custom type creation
@@ -64,7 +66,7 @@ id = '42'; // No error
 id = 10; // Type 'number' is not assignable to type 'string'
 ```
 
-Тип <strong>enum</strong>:
+Тип **enum**:
 
 Удобно использовать следующим образом:
 
@@ -82,3 +84,4 @@ links.youtube  // 'https://youtube.com/'
 ```
 
 Подробнее про enum смотреть [тут](https://www.typescriptlang.org/docs/handbook/basic-types.html#enum).
+
