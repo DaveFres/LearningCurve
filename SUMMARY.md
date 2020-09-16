@@ -7,4 +7,5 @@
 * [typescript](typescript.md)
 * [typescript2](typescript2.md)
 * [links](links.md)
+* [triks](triks.md)
 
