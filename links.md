@@ -3,7 +3,7 @@ id: links
 title: Полезные ссылки
 ---
 
-# links
+# Полезные ссылки
 
 * [подкасты](https://softwareengineeringdaily.com/)
 * [tech статьи](https://news.ycombinator.com/)

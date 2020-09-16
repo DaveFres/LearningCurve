@@ -3,7 +3,7 @@ id: git
 title: Git
 ---
 
-# git
+# Git
 
 ## Squash commits
 
