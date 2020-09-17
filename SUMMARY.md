@@ -6,4 +6,5 @@
 * [Typescript](typescript.md)
 * [Полезные ссылки](links.md)
 * [Triks](triks.md)
+* [React](react.md)
 
