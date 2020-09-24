@@ -32,3 +32,29 @@ git checkout -t origin/<branch_name>
 
 Полный ответ смотри [тут](https://stackoverflow.com/questions/22593087/merging-a-branch-of-a-branch-after-first-branch-is-squashed-when-merged-to-maste)
 
+### Изменить сообщение последнего коммита
+
+```text
+git commit --amend
+```
+
+### Изменить название ветки
+
+Сначала переименовываем ветку локально
+
+```text
+git branch -m <new_name>
+```
+
+Если уже запушили ветку в remote репозиторий, то переименовываем remote ветку:
+
+```text
+git push origin -u <new_name>
+```
+
+Удаляем ветку со старым названием:
+
+```text
+git push origin --delete <old_name>
+```
+
