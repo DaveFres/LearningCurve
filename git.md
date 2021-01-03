@@ -58,3 +58,15 @@ git push origin -u <new_name>
 git push origin --delete <old_name>
 ```
 
+### How to fetch a branch on someone else's fork on GitHub
+
+```text
+$ git remote add theirusername git@github.com:theirusername/reponame.git
+$ git fetch theirusername
+$ git checkout -b mynamefortheirbranch theirusername/theirbranch
+```
+
+### Adding your SSH key to the ssh-agent
+
+[https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
